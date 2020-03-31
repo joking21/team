@@ -1,0 +1,43 @@
+.examination{
+    p{
+        border: 1px solid;
+        margin: 0px;
+        text-align: center;
+    }
+    ul{
+        width: 50px;
+        padding: 0px;
+        border: 1px solid #000;
+        text-align: center;
+        display: inline-block;
+        .first{
+            border-bottom: 1px solid #000;
+            list-style: none;
+            height: 20px;
+        }
+        li{
+            list-style: none;
+        }
+    }
+}
+.choice{
+    .teams{
+        display: flex;
+        // border: 1px solid #000;
+        .choiceParent{
+            width: 140px;
+            display: inline-block;
+            border-top: 1px solid #000;
+            border-bottom: 1px solid #000;
+            p{
+              display: inline-block;
+            }
+       }
+       .choiceParent:nth-of-type(1){
+         border-left: 1px solid #000;
+       }
+       .choiceParent:last-child {
+        border-right: 1px solid #000;
+      }
+    }
+}
